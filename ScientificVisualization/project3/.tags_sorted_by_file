@@ -1,0 +1,346 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_PROGRAM_VERSION	5.8	//
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+ANGFACT	cs553/Project3_Yu_Zhang.cpp	/^const float ANGFACT = { 1. };$/;"	v
+AXES_WIDTH	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat AXES_WIDTH   = { 3. };$/;"	v
+AXISMAX	cs553/Project3_Yu_Zhang.cpp	/^const float AXISMAX = {1.f};$/;"	v
+AXISMIN	cs553/Project3_Yu_Zhang.cpp	/^const float AXISMIN = {-1.f};$/;"	v
+ActiveButton	cs553/Project3_Yu_Zhang.cpp	/^int	ActiveButton;			\/\/ current button that is down$/;"	v
+Animate	cs553/Project3_Yu_Zhang.cpp	/^Animate( )$/;"	f
+Arrow	cs553/Project3_Yu_Zhang.cpp	/^Arrow( float tail[3], float head[3] )$/;"	f
+Axes	cs553/Project3_Yu_Zhang.cpp	/^Axes( float length )$/;"	f
+AxesList	cs553/Project3_Yu_Zhang.cpp	/^GLuint	AxesList;			\/\/ list to hold the axes$/;"	v
+AxesOn	cs553/Project3_Yu_Zhang.cpp	/^int	AxesOn;					\/\/ != 0 means to draw the axes$/;"	v
+BACKCOLOR	cs553/Project3_Yu_Zhang.cpp	/^const float BACKCOLOR[ ] = { 0., 0., 0., 0. };$/;"	v
+BASEFRAC	cs553/Project3_Yu_Zhang.cpp	/^const float BASEFRAC = 1.10f;$/;"	v
+BLACK	cs553/Project3_Yu_Zhang.cpp	/^    BLACK$/;"	e	enum:Colors	file:
+BLUE	cs553/Project3_Yu_Zhang.cpp	/^    BLUE,$/;"	e	enum:Colors	file:
+BOXSIZE	cs553/Project3_Yu_Zhang.cpp	/^const float BOXSIZE = { 2.f };$/;"	v
+BoxList	cs553/Project3_Yu_Zhang.cpp	/^GLuint	BoxList;			\/\/ object display list$/;"	v
+ButtonVals	cs553/Project3_Yu_Zhang.cpp	/^enum ButtonVals$/;"	g	file:
+Buttons	cs553/Project3_Yu_Zhang.cpp	/^Buttons( int id )$/;"	f
+CYAN	cs553/Project3_Yu_Zhang.cpp	/^    CYAN,$/;"	e	enum:Colors	file:
+Centers	cs553/Project3_Yu_Zhang.cpp	/^} Centers[] =$/;"	v	typeref:struct:centers
+Colors	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat Colors[ ][3] =$/;"	v
+Colors	cs553/Project3_Yu_Zhang.cpp	/^enum Colors$/;"	g	file:
+Cross	cs553/Project3_Yu_Zhang.cpp	/^Cross( float v1[3], float v2[3], float vout[3] )$/;"	f
+DebugOn	cs553/Project3_Yu_Zhang.cpp	/^int	DebugOn;				\/\/ != 0 means to print debugging info$/;"	v
+DepthCueOn	cs553/Project3_Yu_Zhang.cpp	/^int	DepthCueOn;				\/\/ != 0 means to use intensity depth cueing$/;"	v
+Display	cs553/Project3_Yu_Zhang.cpp	/^Display( )$/;"	f
+DoRasterString	cs553/Project3_Yu_Zhang.cpp	/^DoRasterString( float x, float y, float z, char *s )$/;"	f
+DoStrokeString	cs553/Project3_Yu_Zhang.cpp	/^DoStrokeString( float x, float y, float z, float ht, char *s )$/;"	f
+Dot	cs553/Project3_Yu_Zhang.cpp	/^Dot( float v1[3], float v2[3] )$/;"	f
+ESCAPE	cs553/Project3_Yu_Zhang.cpp	/^#define ESCAPE	/;"	d	file:
+ElapsedSeconds	cs553/Project3_Yu_Zhang.cpp	/^ElapsedSeconds( )$/;"	f
+FOGCOLOR	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat FOGCOLOR[4] = { .0, .0, .0, 1. };$/;"	v
+FOGDENSITY	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat FOGDENSITY  = { 0.30f };$/;"	v
+FOGEND	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat FOGEND      = { 4. };$/;"	v
+FOGMODE	cs553/Project3_Yu_Zhang.cpp	/^const GLenum  FOGMODE     = { GL_LINEAR };$/;"	v
+FOGSTART	cs553/Project3_Yu_Zhang.cpp	/^const GLfloat FOGSTART    = { 1.5 };$/;"	v
+GLUIFALSE	cs553/Project3_Yu_Zhang.cpp	/^const int GLUIFALSE = { false };$/;"	v
+GLUITITLE	cs553/Project3_Yu_Zhang.cpp	/^const char *GLUITITLE   = { "User Interface Window" };$/;"	v
+GLUITRUE	cs553/Project3_Yu_Zhang.cpp	/^const int GLUITRUE  = { true  };$/;"	v
+GRAD	cs553/Project3_Yu_Zhang.cpp	/^#define GRAD /;"	d	file:
+GRADFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	GRADFORMAT = {"Gradient: %f -%f"};$/;"	v
+GRADMAX	cs553/Project3_Yu_Zhang.cpp	/^const float GRADMAX = {300.f};$/;"	v
+GRADMIN	cs553/Project3_Yu_Zhang.cpp	/^const float GRADMIN = {0.f};$/;"	v
+GRAYMAX	cs553/Project3_Yu_Zhang.cpp	/^const float GRAYMAX = { 1.00f };$/;"	v
+GRAYMIN	cs553/Project3_Yu_Zhang.cpp	/^const float GRAYMIN = { 0.20f };$/;"	v
+GREEN	cs553/Project3_Yu_Zhang.cpp	/^    GREEN,$/;"	e	enum:Colors	file:
+Glui	cs553/Project3_Yu_Zhang.cpp	/^GLUI *	Glui;				\/\/ instance of glui window$/;"	v
+GluiWindow	cs553/Project3_Yu_Zhang.cpp	/^int	GluiWindow;				\/\/ the glut id for the glui window$/;"	v
+GradLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	GradLabel;$/;"	v
+GradLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			GradLowHigh[2];$/;"	v
+GradSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		GradSlider;$/;"	v
+GrayOn	cs553/Project3_Yu_Zhang.cpp	/^int GrayOn;					\/\/ !=0 means to draw the color graph$/;"	v
+HsvRgb	cs553/Project3_Yu_Zhang.cpp	/^HsvRgb( float hsv[3], float rgb[3] )$/;"	f
+INIT_WINDOW_SIZE	cs553/Project3_Yu_Zhang.cpp	/^const int INIT_WINDOW_SIZE = { 600 };$/;"	v
+InitGlui	cs553/Project3_Yu_Zhang.cpp	/^InitGlui( )$/;"	f
+InitGraphics	cs553/Project3_Yu_Zhang.cpp	/^InitGraphics( )$/;"	f
+InitLists	cs553/Project3_Yu_Zhang.cpp	/^InitLists( )$/;"	f
+Keyboard	cs553/Project3_Yu_Zhang.cpp	/^Keyboard( unsigned char c, int x, int y )$/;"	f
+LEFT	cs553/Project3_Yu_Zhang.cpp	/^const int LEFT   = { 4 };$/;"	v
+LENFRAC	cs553/Project3_Yu_Zhang.cpp	/^const float LENFRAC = 0.10f;$/;"	v
+LeftButton	cs553/Project3_Yu_Zhang.cpp	/^enum LeftButton$/;"	g	file:
+LeftButton	cs553/Project3_Yu_Zhang.cpp	/^int	LeftButton;				\/\/ either ROTATE or SCALE$/;"	v
+MAGENTA	cs553/Project3_Yu_Zhang.cpp	/^    MAGENTA,$/;"	e	enum:Colors	file:
+MIDDLE	cs553/Project3_Yu_Zhang.cpp	/^const int MIDDLE = { 2 };$/;"	v
+MINSCALE	cs553/Project3_Yu_Zhang.cpp	/^const float MINSCALE = { 0.05f };$/;"	v
+MainWindow	cs553/Project3_Yu_Zhang.cpp	/^int	MainWindow;				\/\/ window id for main graphics window$/;"	v
+MouseButton	cs553/Project3_Yu_Zhang.cpp	/^MouseButton( int button, int state, int x, int y )$/;"	f
+MouseMotion	cs553/Project3_Yu_Zhang.cpp	/^MouseMotion( int x, int y )$/;"	f
+NX	cs553/Project3_Yu_Zhang.cpp	/^#define NX	/;"	d	file:
+NY	cs553/Project3_Yu_Zhang.cpp	/^#define NY	/;"	d	file:
+NZ	cs553/Project3_Yu_Zhang.cpp	/^#define NZ	/;"	d	file:
+Nodes	cs553/Project3_Yu_Zhang.cpp	/^struct node  Nodes[NX][NY][NZ];$/;"	v	typeref:struct:node
+ORTHO	cs553/Project3_Yu_Zhang.cpp	/^    ORTHO,$/;"	e	enum:Projections	file:
+PERSP	cs553/Project3_Yu_Zhang.cpp	/^    PERSP$/;"	e	enum:Projections	file:
+PointList	cs553/Project3_Yu_Zhang.cpp	/^GLuint PointList;$/;"	v
+Projections	cs553/Project3_Yu_Zhang.cpp	/^enum Projections$/;"	g	file:
+QUIT	cs553/Project3_Yu_Zhang.cpp	/^    QUIT$/;"	e	enum:ButtonVals	file:
+RAD	cs553/Project3_Yu_Zhang.cpp	/^#define RAD	/;"	d	file:
+RADFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	RADFORMAT = {"Radius: %f - %f"};$/;"	v
+RADMAX	cs553/Project3_Yu_Zhang.cpp	/^const float RADMAX = {sqrt(3.)};$/;"	v
+RADMIN	cs553/Project3_Yu_Zhang.cpp	/^const float RADMIN = {0.f};$/;"	v
+RED	cs553/Project3_Yu_Zhang.cpp	/^    RED,$/;"	e	enum:Colors	file:
+RESET	cs553/Project3_Yu_Zhang.cpp	/^    RESET,$/;"	e	enum:ButtonVals	file:
+RIGHT	cs553/Project3_Yu_Zhang.cpp	/^const int RIGHT  = { 1 };$/;"	v
+ROTATE	cs553/Project3_Yu_Zhang.cpp	/^    ROTATE,$/;"	e	enum:LeftButton	file:
+RadLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	RadLabel;$/;"	v
+RadLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			RadLowHigh[2];$/;"	v
+RadSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		RadSlider;$/;"	v
+Reset	cs553/Project3_Yu_Zhang.cpp	/^Reset( )$/;"	f
+Resize	cs553/Project3_Yu_Zhang.cpp	/^Resize( int width, int height )$/;"	f
+RotMatrix	cs553/Project3_Yu_Zhang.cpp	/^GLfloat	RotMatrix[4][4];	\/\/ set by glui rotation widget$/;"	v
+SCALE	cs553/Project3_Yu_Zhang.cpp	/^    SCALE$/;"	e	enum:LeftButton	file:
+SCLFACT	cs553/Project3_Yu_Zhang.cpp	/^const float SCLFACT = { 0.005f };$/;"	v
+SQR	cs553/Project3_Yu_Zhang.cpp	/^inline float SQR( float x )$/;"	f
+Scale	cs553/Project3_Yu_Zhang.cpp	/^float	Scale, Scale2;		\/\/ scaling factors$/;"	v
+Scale2	cs553/Project3_Yu_Zhang.cpp	/^float	Scale, Scale2;		\/\/ scaling factors$/;"	v
+Sliders	cs553/Project3_Yu_Zhang.cpp	/^Sliders(int id)$/;"	f
+T	cs553/Project3_Yu_Zhang.cpp	/^    float T;                \/\/ temperature$/;"	m	struct:node	file:
+TEMP	cs553/Project3_Yu_Zhang.cpp	/^#define TEMP	/;"	d	file:
+TEMPFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	TEMPFORMAT = { "Temperature: %5.2f - %5.2f" };$/;"	v
+TEMPMAX	cs553/Project3_Yu_Zhang.cpp	/^const float TEMPMAX = { 100.f };$/;"	v
+TEMPMIN	cs553/Project3_Yu_Zhang.cpp	/^const float TEMPMIN = {   0.f };$/;"	v
+TempLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	TempLabel;$/;"	v
+TempLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			TempLowHigh[2];$/;"	v
+TempSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		TempSlider;$/;"	v
+Temperature	cs553/Project3_Yu_Zhang.cpp	/^Temperature( float x, float y, float z )$/;"	f
+TransXYZ	cs553/Project3_Yu_Zhang.cpp	/^float	TransXYZ[3];		\/\/ set by glui translation widgets$/;"	v
+Unit	cs553/Project3_Yu_Zhang.cpp	/^Unit( float vin[3], float vout[3] )$/;"	f
+Visibility	cs553/Project3_Yu_Zhang.cpp	/^Visibility ( int state )$/;"	f
+WHITE	cs553/Project3_Yu_Zhang.cpp	/^    WHITE,$/;"	e	enum:Colors	file:
+WINDOWTITLE	cs553/Project3_Yu_Zhang.cpp	/^const char *WINDOWTITLE = { "OpenGL \/ GLUT \/ GLUI Project#3-- Author: Yu Zhang" };$/;"	v
+WINGS	cs553/Project3_Yu_Zhang.cpp	/^#define WINGS	/;"	d	file:
+WhichColor	cs553/Project3_Yu_Zhang.cpp	/^int	WhichColor;				\/\/ index into Colors[ ]$/;"	v
+WhichProjection	cs553/Project3_Yu_Zhang.cpp	/^int	WhichProjection;		\/\/ ORTHO or PERSP$/;"	v
+X	cs553/Project3_Yu_Zhang.cpp	/^#define X	/;"	d	file:
+XAXIS	cs553/Project3_Yu_Zhang.cpp	/^#define XAXIS	/;"	d	file:
+XFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	XFORMAT = {"X axis: %f - %f"};$/;"	v
+XLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	XLabel;$/;"	v
+XSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		XSlider;$/;"	v
+XaxisLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			XaxisLowHigh[2];$/;"	v
+Xmouse	cs553/Project3_Yu_Zhang.cpp	/^int	Xmouse, Ymouse;			\/\/ mouse values$/;"	v
+Xrot	cs553/Project3_Yu_Zhang.cpp	/^float	Xrot, Yrot;			\/\/ rotation angles in degrees$/;"	v
+Y	cs553/Project3_Yu_Zhang.cpp	/^#define Y	/;"	d	file:
+YAXIS	cs553/Project3_Yu_Zhang.cpp	/^#define YAXIS /;"	d	file:
+YELLOW	cs553/Project3_Yu_Zhang.cpp	/^    YELLOW,$/;"	e	enum:Colors	file:
+YFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	YFORMAT = {"Y axis: %f - %f"};$/;"	v
+YLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	YLabel;$/;"	v
+YSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		YSlider;$/;"	v
+YaxisLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			YaxisLowHigh[2];$/;"	v
+Ymouse	cs553/Project3_Yu_Zhang.cpp	/^int	Xmouse, Ymouse;			\/\/ mouse values$/;"	v
+Yrot	cs553/Project3_Yu_Zhang.cpp	/^float	Xrot, Yrot;			\/\/ rotation angles in degrees$/;"	v
+Z	cs553/Project3_Yu_Zhang.cpp	/^#define Z	/;"	d	file:
+ZAXIS	cs553/Project3_Yu_Zhang.cpp	/^#define ZAXIS /;"	d	file:
+ZFORMAT	cs553/Project3_Yu_Zhang.cpp	/^const char *	ZFORMAT = {"Z axis: %f - %f"};$/;"	v
+ZLabel	cs553/Project3_Yu_Zhang.cpp	/^GLUI_StaticText *	ZLabel;$/;"	v
+ZSlider	cs553/Project3_Yu_Zhang.cpp	/^GLUI_HSlider *		ZSlider;$/;"	v
+ZaxisLowHigh	cs553/Project3_Yu_Zhang.cpp	/^float			ZaxisLowHigh[2];$/;"	v
+_USE_MATH_DEFINES	cs553/Project3_Yu_Zhang.cpp	/^#define _USE_MATH_DEFINES$/;"	d	file:
+a	cs553/Project3_Yu_Zhang.cpp	/^    float a;                \/\/ amplitude$/;"	m	struct:centers	file:
+axx	cs553/Project3_Yu_Zhang.cpp	/^static float axx[3] = { 1., 0., 0. };$/;"	v	file:
+ayy	cs553/Project3_Yu_Zhang.cpp	/^static float ayy[3] = { 0., 1., 0. };$/;"	v	file:
+azz	cs553/Project3_Yu_Zhang.cpp	/^static float azz[3] = { 0., 0., 1. };$/;"	v	file:
+b	cs553/Project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+centers	cs553/Project3_Yu_Zhang.cpp	/^struct centers$/;"	s	file:
+dTdx	cs553/Project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+dTdy	cs553/Project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+dTdz	cs553/Project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+g	cs553/Project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+grad	cs553/Project3_Yu_Zhang.cpp	/^    float grad;             \/\/ total gradient$/;"	m	struct:node	file:
+gray	cs553/Project3_Yu_Zhang.cpp	/^	float gray;$/;"	m	struct:node	file:
+hsv	cs553/Project3_Yu_Zhang.cpp	/^	float hsv[3];$/;"	m	struct:node	file:
+main	cs553/Project3_Yu_Zhang.cpp	/^main( int argc, char *argv[ ] )$/;"	f
+node	cs553/Project3_Yu_Zhang.cpp	/^struct node$/;"	s	file:
+r	cs553/Project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+rad	cs553/Project3_Yu_Zhang.cpp	/^    float rad;              \/\/ radius$/;"	m	struct:node	file:
+rgb	cs553/Project3_Yu_Zhang.cpp	/^	float rgb[3];$/;"	m	struct:node	file:
+x	cs553/Project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+xc	cs553/Project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+xorder	cs553/Project3_Yu_Zhang.cpp	/^static int xorder[ ] = {$/;"	v	file:
+xx	cs553/Project3_Yu_Zhang.cpp	/^static float xx[ ] = {$/;"	v	file:
+xy	cs553/Project3_Yu_Zhang.cpp	/^static float xy[ ] = {$/;"	v	file:
+y	cs553/Project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+yc	cs553/Project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+yorder	cs553/Project3_Yu_Zhang.cpp	/^static int yorder[ ] = {$/;"	v	file:
+yx	cs553/Project3_Yu_Zhang.cpp	/^static float yx[ ] = {$/;"	v	file:
+yy	cs553/Project3_Yu_Zhang.cpp	/^static float yy[ ] = {$/;"	v	file:
+z	cs553/Project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+zc	cs553/Project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+zorder	cs553/Project3_Yu_Zhang.cpp	/^static int zorder[ ] = {$/;"	v	file:
+zx	cs553/Project3_Yu_Zhang.cpp	/^static float zx[ ] = {$/;"	v	file:
+zy	cs553/Project3_Yu_Zhang.cpp	/^static float zy[ ] = {$/;"	v	file:
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+ANGFACT	project3_Yu_Zhang.cpp	/^const float ANGFACT = { 1. };$/;"	v
+AXES_WIDTH	project3_Yu_Zhang.cpp	/^const GLfloat AXES_WIDTH   = { 3. };$/;"	v
+AXISMAX	project3_Yu_Zhang.cpp	/^const float AXISMAX = {1.f};$/;"	v
+AXISMIN	project3_Yu_Zhang.cpp	/^const float AXISMIN = {-1.f};$/;"	v
+ActiveButton	project3_Yu_Zhang.cpp	/^int	ActiveButton;			\/\/ current button that is down$/;"	v
+Animate	project3_Yu_Zhang.cpp	/^Animate( )$/;"	f
+Arrow	project3_Yu_Zhang.cpp	/^Arrow( float tail[3], float head[3] )$/;"	f
+Axes	project3_Yu_Zhang.cpp	/^Axes( float length )$/;"	f
+AxesList	project3_Yu_Zhang.cpp	/^GLuint	AxesList;			\/\/ list to hold the axes$/;"	v
+AxesOn	project3_Yu_Zhang.cpp	/^int	AxesOn;					\/\/ != 0 means to draw the axes$/;"	v
+BACKCOLOR	project3_Yu_Zhang.cpp	/^const float BACKCOLOR[ ] = { 0., 0., 0., 0. };$/;"	v
+BASEFRAC	project3_Yu_Zhang.cpp	/^const float BASEFRAC = 1.10f;$/;"	v
+BLACK	project3_Yu_Zhang.cpp	/^    BLACK$/;"	e	enum:Colors	file:
+BLUE	project3_Yu_Zhang.cpp	/^    BLUE,$/;"	e	enum:Colors	file:
+BOXSIZE	project3_Yu_Zhang.cpp	/^const float BOXSIZE = { 2.f };$/;"	v
+BoxList	project3_Yu_Zhang.cpp	/^GLuint	BoxList;			\/\/ object display list$/;"	v
+ButtonVals	project3_Yu_Zhang.cpp	/^enum ButtonVals$/;"	g	file:
+Buttons	project3_Yu_Zhang.cpp	/^Buttons( int id )$/;"	f
+CYAN	project3_Yu_Zhang.cpp	/^    CYAN,$/;"	e	enum:Colors	file:
+Centers	project3_Yu_Zhang.cpp	/^} Centers[] =$/;"	v	typeref:struct:centers
+Colors	project3_Yu_Zhang.cpp	/^const GLfloat Colors[ ][3] =$/;"	v
+Colors	project3_Yu_Zhang.cpp	/^enum Colors$/;"	g	file:
+Cross	project3_Yu_Zhang.cpp	/^Cross( float v1[3], float v2[3], float vout[3] )$/;"	f
+DebugOn	project3_Yu_Zhang.cpp	/^int	DebugOn;				\/\/ != 0 means to print debugging info$/;"	v
+DepthCueOn	project3_Yu_Zhang.cpp	/^int	DepthCueOn;				\/\/ != 0 means to use intensity depth cueing$/;"	v
+Display	project3_Yu_Zhang.cpp	/^Display( )$/;"	f
+DoRasterString	project3_Yu_Zhang.cpp	/^DoRasterString( float x, float y, float z, char *s )$/;"	f
+DoStrokeString	project3_Yu_Zhang.cpp	/^DoStrokeString( float x, float y, float z, float ht, char *s )$/;"	f
+Dot	project3_Yu_Zhang.cpp	/^Dot( float v1[3], float v2[3] )$/;"	f
+ESCAPE	project3_Yu_Zhang.cpp	/^#define ESCAPE	/;"	d	file:
+ElapsedSeconds	project3_Yu_Zhang.cpp	/^ElapsedSeconds( )$/;"	f
+FOGCOLOR	project3_Yu_Zhang.cpp	/^const GLfloat FOGCOLOR[4] = { .0, .0, .0, 1. };$/;"	v
+FOGDENSITY	project3_Yu_Zhang.cpp	/^const GLfloat FOGDENSITY  = { 0.30f };$/;"	v
+FOGEND	project3_Yu_Zhang.cpp	/^const GLfloat FOGEND      = { 4. };$/;"	v
+FOGMODE	project3_Yu_Zhang.cpp	/^const GLenum  FOGMODE     = { GL_LINEAR };$/;"	v
+FOGSTART	project3_Yu_Zhang.cpp	/^const GLfloat FOGSTART    = { 1.5 };$/;"	v
+GLUIFALSE	project3_Yu_Zhang.cpp	/^const int GLUIFALSE = { false };$/;"	v
+GLUITITLE	project3_Yu_Zhang.cpp	/^const char *GLUITITLE   = { "User Interface Window" };$/;"	v
+GLUITRUE	project3_Yu_Zhang.cpp	/^const int GLUITRUE  = { true  };$/;"	v
+GRAD	project3_Yu_Zhang.cpp	/^#define GRAD /;"	d	file:
+GRADFORMAT	project3_Yu_Zhang.cpp	/^const char *	GRADFORMAT = {"Gradient: %f -%f"};$/;"	v
+GRADMAX	project3_Yu_Zhang.cpp	/^const float GRADMAX = {5500.f};$/;"	v
+GRADMIN	project3_Yu_Zhang.cpp	/^const float GRADMIN = {0.f};$/;"	v
+GRAYMAX	project3_Yu_Zhang.cpp	/^const float GRAYMAX = { 1.00f };$/;"	v
+GRAYMIN	project3_Yu_Zhang.cpp	/^const float GRAYMIN = { 0.20f };$/;"	v
+GREEN	project3_Yu_Zhang.cpp	/^    GREEN,$/;"	e	enum:Colors	file:
+Glui	project3_Yu_Zhang.cpp	/^GLUI *	Glui;				\/\/ instance of glui window$/;"	v
+GluiWindow	project3_Yu_Zhang.cpp	/^int	GluiWindow;				\/\/ the glut id for the glui window$/;"	v
+GradLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	GradLabel;$/;"	v
+GradLowHigh	project3_Yu_Zhang.cpp	/^float			GradLowHigh[2];$/;"	v
+GradSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		GradSlider;$/;"	v
+HsvRgb	project3_Yu_Zhang.cpp	/^HsvRgb( float hsv[3], float rgb[3] )$/;"	f
+INIT_WINDOW_SIZE	project3_Yu_Zhang.cpp	/^const int INIT_WINDOW_SIZE = { 600 };$/;"	v
+InitGlui	project3_Yu_Zhang.cpp	/^InitGlui( )$/;"	f
+InitGraphics	project3_Yu_Zhang.cpp	/^InitGraphics( )$/;"	f
+InitLists	project3_Yu_Zhang.cpp	/^InitLists( )$/;"	f
+Keyboard	project3_Yu_Zhang.cpp	/^Keyboard( unsigned char c, int x, int y )$/;"	f
+LEFT	project3_Yu_Zhang.cpp	/^const int LEFT   = { 4 };$/;"	v
+LENFRAC	project3_Yu_Zhang.cpp	/^const float LENFRAC = 0.10f;$/;"	v
+LeftButton	project3_Yu_Zhang.cpp	/^enum LeftButton$/;"	g	file:
+LeftButton	project3_Yu_Zhang.cpp	/^int	LeftButton;				\/\/ either ROTATE or SCALE$/;"	v
+MAGENTA	project3_Yu_Zhang.cpp	/^    MAGENTA,$/;"	e	enum:Colors	file:
+MIDDLE	project3_Yu_Zhang.cpp	/^const int MIDDLE = { 2 };$/;"	v
+MINSCALE	project3_Yu_Zhang.cpp	/^const float MINSCALE = { 0.05f };$/;"	v
+MainWindow	project3_Yu_Zhang.cpp	/^int	MainWindow;				\/\/ window id for main graphics window$/;"	v
+MouseButton	project3_Yu_Zhang.cpp	/^MouseButton( int button, int state, int x, int y )$/;"	f
+MouseMotion	project3_Yu_Zhang.cpp	/^MouseMotion( int x, int y )$/;"	f
+NX	project3_Yu_Zhang.cpp	/^#define NX	/;"	d	file:
+NY	project3_Yu_Zhang.cpp	/^#define NY	/;"	d	file:
+NZ	project3_Yu_Zhang.cpp	/^#define NZ	/;"	d	file:
+Nodes	project3_Yu_Zhang.cpp	/^struct node  Nodes[NX][NY][NZ];$/;"	v	typeref:struct:node
+ORTHO	project3_Yu_Zhang.cpp	/^    ORTHO,$/;"	e	enum:Projections	file:
+PERSP	project3_Yu_Zhang.cpp	/^    PERSP$/;"	e	enum:Projections	file:
+PointList	project3_Yu_Zhang.cpp	/^GLuint PointList;$/;"	v
+Projections	project3_Yu_Zhang.cpp	/^enum Projections$/;"	g	file:
+QUIT	project3_Yu_Zhang.cpp	/^    QUIT$/;"	e	enum:ButtonVals	file:
+RAD	project3_Yu_Zhang.cpp	/^#define RAD	/;"	d	file:
+RADFORMAT	project3_Yu_Zhang.cpp	/^const char *	RADFORMAT = {"Radius: %f - %f"};$/;"	v
+RADMAX	project3_Yu_Zhang.cpp	/^const float RADMAX  = {sqrt(3.)};$/;"	v
+RADMIN	project3_Yu_Zhang.cpp	/^const float RADMIN  = {0.f};$/;"	v
+RED	project3_Yu_Zhang.cpp	/^    RED,$/;"	e	enum:Colors	file:
+RESET	project3_Yu_Zhang.cpp	/^    RESET,$/;"	e	enum:ButtonVals	file:
+RIGHT	project3_Yu_Zhang.cpp	/^const int RIGHT  = { 1 };$/;"	v
+ROTATE	project3_Yu_Zhang.cpp	/^    ROTATE,$/;"	e	enum:LeftButton	file:
+RadLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	RadLabel;$/;"	v
+RadLowHigh	project3_Yu_Zhang.cpp	/^float			RadLowHigh[2];$/;"	v
+RadSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		RadSlider;$/;"	v
+Reset	project3_Yu_Zhang.cpp	/^Reset( )$/;"	f
+Resize	project3_Yu_Zhang.cpp	/^Resize( int width, int height )$/;"	f
+RotMatrix	project3_Yu_Zhang.cpp	/^GLfloat	RotMatrix[4][4];	\/\/ set by glui rotation widget$/;"	v
+SCALE	project3_Yu_Zhang.cpp	/^    SCALE$/;"	e	enum:LeftButton	file:
+SCLFACT	project3_Yu_Zhang.cpp	/^const float SCLFACT = { 0.005f };$/;"	v
+SQR	project3_Yu_Zhang.cpp	/^inline float SQR( float x )$/;"	f
+Scale	project3_Yu_Zhang.cpp	/^float	Scale, Scale2;		\/\/ scaling factors$/;"	v
+Scale2	project3_Yu_Zhang.cpp	/^float	Scale, Scale2;		\/\/ scaling factors$/;"	v
+Sliders	project3_Yu_Zhang.cpp	/^Sliders(int id)$/;"	f
+T	project3_Yu_Zhang.cpp	/^    float T;                \/\/ temperature$/;"	m	struct:node	file:
+TEMP	project3_Yu_Zhang.cpp	/^#define TEMP	/;"	d	file:
+TEMPFORMAT	project3_Yu_Zhang.cpp	/^const char *	TEMPFORMAT = { "Temperature: %5.2f - %5.2f" };$/;"	v
+TEMPMAX	project3_Yu_Zhang.cpp	/^const float TEMPMAX = { 100.f };$/;"	v
+TEMPMIN	project3_Yu_Zhang.cpp	/^const float TEMPMIN = {   0.f };$/;"	v
+TempLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	TempLabel;$/;"	v
+TempLowHigh	project3_Yu_Zhang.cpp	/^float			TempLowHigh[2];$/;"	v
+TempSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		TempSlider;$/;"	v
+Temperature	project3_Yu_Zhang.cpp	/^Temperature( float x, float y, float z )$/;"	f
+TransXYZ	project3_Yu_Zhang.cpp	/^float	TransXYZ[3];		\/\/ set by glui translation widgets$/;"	v
+Unit	project3_Yu_Zhang.cpp	/^Unit( float vin[3], float vout[3] )$/;"	f
+Visibility	project3_Yu_Zhang.cpp	/^Visibility ( int state )$/;"	f
+WHITE	project3_Yu_Zhang.cpp	/^    WHITE,$/;"	e	enum:Colors	file:
+WINDOWTITLE	project3_Yu_Zhang.cpp	/^const char *WINDOWTITLE = { "OpenGL \/ GLUT \/ GLUI Project-- Author: Yu Zhang" };$/;"	v
+WINGS	project3_Yu_Zhang.cpp	/^#define WINGS	/;"	d	file:
+WhichColor	project3_Yu_Zhang.cpp	/^int	WhichColor;				\/\/ index into Colors[ ]$/;"	v
+WhichProjection	project3_Yu_Zhang.cpp	/^int	WhichProjection;		\/\/ ORTHO or PERSP$/;"	v
+X	project3_Yu_Zhang.cpp	/^#define X	/;"	d	file:
+XAXIS	project3_Yu_Zhang.cpp	/^#define XAXIS	/;"	d	file:
+XFORMAT	project3_Yu_Zhang.cpp	/^const char *	XFORMAT = {"X axis: %f - %f"};$/;"	v
+XLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	XLabel;$/;"	v
+XSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		XSlider;$/;"	v
+XaxisLowHigh	project3_Yu_Zhang.cpp	/^float			XaxisLowHigh[2];$/;"	v
+Xmouse	project3_Yu_Zhang.cpp	/^int	Xmouse, Ymouse;			\/\/ mouse values$/;"	v
+Xrot	project3_Yu_Zhang.cpp	/^float	Xrot, Yrot;			\/\/ rotation angles in degrees$/;"	v
+Y	project3_Yu_Zhang.cpp	/^#define Y	/;"	d	file:
+YAXIS	project3_Yu_Zhang.cpp	/^#define YAXIS /;"	d	file:
+YELLOW	project3_Yu_Zhang.cpp	/^    YELLOW,$/;"	e	enum:Colors	file:
+YFORMAT	project3_Yu_Zhang.cpp	/^const char *	YFORMAT = {"Y axis: %f - %f"};$/;"	v
+YLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	YLabel;$/;"	v
+YSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		YSlider;$/;"	v
+YaxisLowHigh	project3_Yu_Zhang.cpp	/^float			YaxisLowHigh[2];$/;"	v
+Ymouse	project3_Yu_Zhang.cpp	/^int	Xmouse, Ymouse;			\/\/ mouse values$/;"	v
+Yrot	project3_Yu_Zhang.cpp	/^float	Xrot, Yrot;			\/\/ rotation angles in degrees$/;"	v
+Z	project3_Yu_Zhang.cpp	/^#define Z	/;"	d	file:
+ZAXIS	project3_Yu_Zhang.cpp	/^#define ZAXIS /;"	d	file:
+ZFORMAT	project3_Yu_Zhang.cpp	/^const char *	ZFORMAT = {"Z axis: %f - %f"};$/;"	v
+ZLabel	project3_Yu_Zhang.cpp	/^GLUI_StaticText *	ZLabel;$/;"	v
+ZSlider	project3_Yu_Zhang.cpp	/^GLUI_HSlider *		ZSlider;$/;"	v
+ZaxisLowHigh	project3_Yu_Zhang.cpp	/^float			ZaxisLowHigh[2];$/;"	v
+_USE_MATH_DEFINES	project3_Yu_Zhang.cpp	/^#define _USE_MATH_DEFINES$/;"	d	file:
+a	project3_Yu_Zhang.cpp	/^    float a;                \/\/ amplitude$/;"	m	struct:centers	file:
+axx	project3_Yu_Zhang.cpp	/^static float axx[3] = { 1., 0., 0. };$/;"	v	file:
+ayy	project3_Yu_Zhang.cpp	/^static float ayy[3] = { 0., 1., 0. };$/;"	v	file:
+azz	project3_Yu_Zhang.cpp	/^static float azz[3] = { 0., 0., 1. };$/;"	v	file:
+b	project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+centers	project3_Yu_Zhang.cpp	/^struct centers$/;"	s	file:
+dTdx	project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+dTdy	project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+dTdz	project3_Yu_Zhang.cpp	/^    float dTdx, dTdy, dTdz;	\/\/ can store these if you want, or not$/;"	m	struct:node	file:
+g	project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+grad	project3_Yu_Zhang.cpp	/^    float grad;             \/\/ total gradient$/;"	m	struct:node	file:
+hsv	project3_Yu_Zhang.cpp	/^	float hsv[3];$/;"	m	struct:node	file:
+main	project3_Yu_Zhang.cpp	/^main( int argc, char *argv[ ] )$/;"	f
+node	project3_Yu_Zhang.cpp	/^struct node$/;"	s	file:
+r	project3_Yu_Zhang.cpp	/^    float r, g, b;		\/\/ the assigned color$/;"	m	struct:node	file:
+rad	project3_Yu_Zhang.cpp	/^    float rad;              \/\/ radius$/;"	m	struct:node	file:
+rgb	project3_Yu_Zhang.cpp	/^	float rgb[3];$/;"	m	struct:node	file:
+x	project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+xc	project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+xorder	project3_Yu_Zhang.cpp	/^static int xorder[ ] = {$/;"	v	file:
+xx	project3_Yu_Zhang.cpp	/^static float xx[ ] = {$/;"	v	file:
+xy	project3_Yu_Zhang.cpp	/^static float xy[ ] = {$/;"	v	file:
+y	project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+yc	project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+yorder	project3_Yu_Zhang.cpp	/^static int yorder[ ] = {$/;"	v	file:
+yx	project3_Yu_Zhang.cpp	/^static float yx[ ] = {$/;"	v	file:
+yy	project3_Yu_Zhang.cpp	/^static float yy[ ] = {$/;"	v	file:
+z	project3_Yu_Zhang.cpp	/^    float x, y, z;          \/\/ location$/;"	m	struct:node	file:
+zc	project3_Yu_Zhang.cpp	/^    float xc, yc, zc;       \/\/ center location$/;"	m	struct:centers	file:
+zorder	project3_Yu_Zhang.cpp	/^static int zorder[ ] = {$/;"	v	file:
+zx	project3_Yu_Zhang.cpp	/^static float zx[ ] = {$/;"	v	file:
+zy	project3_Yu_Zhang.cpp	/^static float zy[ ] = {$/;"	v	file:
