@@ -1,0 +1,1 @@
+The programs is coded by MatLab, users can run the programs easily by MatLab, you can type in pic(‘picture_name.ppm’), such as pic(animal.ppm) and all the pictures are written in the same folder.
